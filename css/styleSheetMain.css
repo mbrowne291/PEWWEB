@@ -1,0 +1,64 @@
+    body{
+        background-image : url("../img/11.jpg");
+        width: 960px;
+        margin: auto;
+    }
+    
+    h1 {
+        color:white;
+        font-family: Segoe UI,Helvetica,Arial,sans-serif;
+        text-shadow: 3px 3px 0px green;
+    }
+    
+    #frontContainer {
+        width: 960px; 
+        text-align: left; 
+        margin: 100px auto auto auto;
+    }
+
+    #frontContainer h2 {
+        font-family: 'Mate', serif;
+        font-size: 35px;
+        color: #000;
+        paddind: 15px;
+    }
+
+    #frontContainer h3{
+        font-family: 'Mate', serif;
+        font-size: 28px;
+        color: #3f7333;
+    }
+
+    #frontContainer .blogText{
+        font-family: 'Mate', serif;
+        font-size: 18px;
+        color: #3f7698;
+        text-align: justify;
+        text-justify: inter-word;
+    }
+
+    #frontContainer .blogTime{
+        font-family: 'Mate', serif;
+        font-size: 20px;
+        color: #fff;
+        font-weight: bold;
+        padding-bottom: 20 px;
+        
+    }
+    
+
+    
+    #standardShip{
+        position:fixed;
+        z-index:-1;
+    }
+    
+    #headerSubText {
+        color:white;
+        font-family: Segoe UI,Helvetica,Arial,sans-serif;
+        text-shadow: 3px 3px 0px green;
+        margin-left: 75px;
+    }
+    .tabs {
+        width:660px;
+    }
