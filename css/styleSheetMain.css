@@ -1,14 +1,16 @@
-    body{
-        background-image : url("../img/11.jpg");
+@import "compass/css3/transform";
+
+body{
+        background-image : url("../images/spaceScape.jpg");
         width: 960px;
         margin: auto;
-        font-family: 'Montserrat Alternates','Mate', serif;
+        font-family: 'Oswald', 'Montserrat Alternates','Mate', serif;
     }
     
-    h1 {
+    #welcomeText {
         color:white;
-        font-family: 'Montserrat Alternates',Segoe UI,Helvetica,Arial,sans-serif;
-        text-shadow: 3px 3px 0px green;
+        font-family: 'Oswald', 'Montserrat Alternates',Segoe UI,Helvetica,Arial,sans-serif;
+        text-shadow: 3px 3px 0px #B14C13;
     }
     
     #frontContainer {
@@ -18,20 +20,20 @@
     }
 
     #frontContainer h2 {
-        font-family: 'Montserrat Alternates','Mate', serif;
+        font-family: 'Oswald' ,'Montserrat Alternates','Mate', serif;
         font-size: 35px;
         color: #000;
-        paddind: 15px;
+        padding: 15px;
     }
 
     #frontContainer h3{
-        font-family: 'Montserrat Alternates', 'Mate', serif;
+        font-family:'Oswald' , 'Montserrat Alternates', 'Mate', serif;
         font-size: 28px;
         color: #3f7333;
     }
 
     #frontContainer .blogText{
-        font-family: 'Montserrat Alternates' , 'Mate', serif;
+        font-family: 'Oswald' , 'Montserrat Alternates' , 'Mate', serif;
         font-size: 18px;
         color: #3f7698;
         text-align: justify;
@@ -39,7 +41,7 @@
     }
 
     #frontContainer .blogTime{
-        font-family:'Montserrat Alternates', 'Mate', serif;
+        font-family: 'Oswald' ,'Montserrat Alternates', 'Mate', serif;
         font-size: 20px;
         color: #fff;
         font-weight: bold;
@@ -48,7 +50,7 @@
     }
 
     #frontContainer .teamText{
-        font-family: 'Montserrat Alternates' , 'Mate', serif;
+        font-family: 'Oswald' , 'Montserrat Alternates' , 'Mate', serif;
         font-size: 18px;
         color: #3f7698;
         text-align: justify;
@@ -56,15 +58,12 @@
     }
 
      #frontContainer .aboutText{
-        font-family: 'Montserrat Alternates' , 'Mate', serif;
+        font-family: 'Oswald' ,'Montserrat Alternates' , 'Mate', serif;
         font-size: 18px;
         color: #3f7698;
         text-align: justify;
         text-justify: inter-word;
     }
-    
-
-    
     #standardShip{
         position:fixed;
         z-index:-1;
@@ -72,10 +71,57 @@
     
     #headerSubText {
         color:white;
-        font-family: 'Montserrat Alternates' , Segoe UI,Helvetica,Arial,sans-serif;
+        font-family: 'Oswald', 'Montserrat Alternates' , Segoe UI,Helvetica,Arial,sans-serif;
         text-shadow: 3px 3px 0px green;
         margin-left: 75px;
     }
-    .tabs {
-        width:660px;
+
+    .transparent {
+
+        opacity:0.75;
+        filter:alpha(opacity=75); /* For IE8 and earlier */
+           opacity: .75;
+         transition: opacity .25s ease-in-out;
+        -moz-transition: opacity .25s ease-in-out;
+        -webkit-transition: opacity .25s ease-in-out;
+
     }
+
+
+   .transparent:hover {
+      opacity: 1.0;
+      }
+
+    .crewMemberImage {
+
+        width: 200;
+        height: 200;
+        float: left;
+        position: relative;
+        padding: 10px;
+
+    }
+
+    .crewMemberImage : hover {
+
+        opacity:0.75;
+        filter:alpha(opacity=75); /* For IE8 and earlier */
+
+
+    }
+    
+    .crewMemberName {
+         float: left;
+         vertical-align: left;
+    }
+
+     .teamText{
+        font-family: 'Oswald' ,'Montserrat Alternates' , 'Mate', serif;
+        font-size: 14px;
+        color: #3f7698;
+    }
+    .siteHeader {
+        padding: 10px;
+        background-color: #6699cc;
+    }
+

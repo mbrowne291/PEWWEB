@@ -1,108 +1,161 @@
 <!doctype html>
 <html lang="us">
+
 <head>
-	<meta charset="utf-8">
+    <meta charset="utf-8">
+    <!-- external libraries -->
+    <link href="css/trontastic/jquery-ui-1.10.4.custom.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://blueimp.github.io/Gallery/css/blueimp-gallery.min.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-ui-1.10.4.custom.js"></script>
+    <script src="http://blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script>
+    <script src="js/bootstrap-image-gallery.min.js"></script>
 
-	<link href="css/trontastic/jquery-ui-1.10.4.custom.css" rel="stylesheet">
-	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
-	<link rel="stylesheet" href="http://blueimp.github.io/Gallery/css/blueimp-gallery.min.css">
-	<link rel="stylesheet" href="css/bootstrap-image-gallery.min.css">
-	<!--Custom Styling -->
-	<link rel="stylesheet" href="css/styleSheetMain.css">
-	<!--Google Fonts -->
-	<link href='http://fonts.googleapis.com/css?family=Montserrat+Alternates' rel='stylesheet' type='text/css'>
+    <!--Google Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Montserrat+Alternates' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
 
-	<script src="js/jquery.min.js"></script>
-	<script src="js/jquery-ui-1.10.4.custom.js"></script>
-	<script src="http://blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script>
-	<script src="js/bootstrap-image-gallery.min.js"></script>
-	<!-- Custom JavaScript-->
-	<script src="js/javaScriptMain.js"></script>
+    <!-- Custom JavaScript-->
+    <script src="js/javaScriptMain.js"></script>
 
-	<!-- Set title image-->
-	<link rel="shortcut icon" href="img/favicon.png">
-	<title>Jelly Jar</title>
+    <!-- Set title image-->
+    <link rel="shortcut icon" href="images/favicon.png">
+    <title>Jelly Jar</title>
+
+    <!--Custom Styling -->
+    <link rel="stylesheet" href="css/styleSheetMain.css">
+    <link rel="stylesheet" href="css/styleSheetTabs.css">
+    <link rel="stylesheet" href="css/styleSheetTabsExtension.css">
+    
 </head>
+    
 <body>
-<div id="frontContainer">
-	<h1>Welcome to the Hangar </h1>
-	<div id="tabs">
-	  <ul>
-		<li><a href="#tabs-1">Incoming transmission</a></li>
-		<li><a href="#tabs-2">Meet The Crew</a></li>
-		<li><a href="#tabs-3">About The Game </a></li>
-		<li><a href="#tabs-4">Gallery</a></li>
-	  </ul>
-	  <div id="tabs-1">
-			<div class="blog">
-				<h3>Simple Post</h3>
-				<p class="blogText">Etiam condimentum ipsum ut quam ullamcorper gravida. Nunc aliquet posuere dui, eget interdum erat. Aliquam massa dolor, faucibus quis semper vitae, interdum vel ligula. Nam tincidunt quam a condimentum imperdiet. Vivamus faucibus condimentum ligula, ut placerat leo ullamcorper congue. Proin magna eros, adipiscing eget </p>
-				<p class="blogTime">posted: 4-5-2014</p>
-				
-				<h3>Simple Post</h3>
-				<p class="blogText">Etiam condimentum ipsum ut quam ullamcorper gravida. Nunc aliquet posuere dui, eget interdum erat. Aliquam massa dolor, faucibus quis semper vitae, interdum vel ligula. Nam tincidunt quam a condimentum imperdiet. Vivamus faucibus condimentum ligula, ut placerat leo ullamcorper congue. Proin magna eros, adipiscing eget </p>
-				<p class="blogTime">posted: 4-5-2014</p>
-			 </div>
-			</div> 
-	  <div id="tabs-2">
-	  <h3> Your generally loyal crew ...  </h3>
-		<p class="teamText" >Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolor. Aenean aliquet fringilla sem. Suspendisse sed ligula in ligula suscipit aliquam. Praesent in eros vestibulum mi adipiscing adipiscing. Morbi facilisis. Curabitur ornare consequat nunc. Aenean vel metus. Ut posuere viverra nulla. Aliquam erat volutpat. Pellentesque convallis. Maecenas feugiat, tellus pellentesque pretium posuere, felis lorem euismod felis, eu ornare leo nisi vel felis. Mauris consectetur tortor et purus.</p>
-	  </div>
-	  <div id="tabs-3">
-	  <h3> What is P.E.W P.E.W ? </h3>
-		<p class="aboutText" >Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodales. Quisque eu urna vel enim commodo pellentesque. Praesent eu risus hendrerit ligula tempus pretium. Curabitur lorem enim, pretium nec, feugiat nec, luctus a, lacus.</p>
-		<p class="aboutText" >Duis cursus. Maecenas ligula eros, blandit nec, pharetra at, semper at, magna. Nullam ac lacus. Nulla facilisi. Praesent viverra justo vitae neque. Praesent blandit adipiscing velit. Suspendisse potenti. Donec mattis, pede vel pharetra blandit, magna ligula faucibus eros, id euismod lacus dolor eget odio. Nam scelerisque. Donec non libero sed nulla mattis commodo. Ut sagittis. Donec nisi lectus, feugiat porttitor, tempor ac, tempor vitae, pede. Aenean vehicula velit eu tellus interdum rutrum. Maecenas commodo. Pellentesque nec elit. Fusce in lacus. Vivamus a libero vitae lectus hendrerit hendrerit.</p>
-	  </div>
-	   <div id="tabs-4">
-	  	<h3> An ever growing collection of images and production stills related to your crafts development </h3>
-					<!-- The Bootstrap Image Gallery lightbox, should be a child element of the document body -->
-				<div id="blueimp-gallery" class="blueimp-gallery">
-					<!-- The container for the modal slides -->
-					<div class="slides"></div>
-					<!-- Controls for the borderless lightbox -->
-					<h3 class="title"></h3>
-					<a class="prev">‹</a>
-					<a class="next">›</a>
-					<a class="close">×</a>
-					<a class="play-pause"></a>
-					<ol class="indicator"></ol>
-					<!-- The modal dialog, which will be used to wrap the lightbox content -->
-					<div class="modal fade">
-						<div class="modal-dialog">
-							<div class="modal-content">
-								<div class="modal-header">
-									<button type="button" class="close" aria-hidden="true">&times;</button>
-									<h4 class="modal-title"></h4>
-								</div>
-								<div class="modal-body next"></div>
-								<div class="modal-footer">
-									<button type="button" class="btn btn-default pull-left prev">
-										<i class="glyphicon glyphicon-chevron-left"></i>
-										Previous
-									</button>
-									<button type="button" class="btn btn-primary next">
-										Next
-										<i class="glyphicon glyphicon-chevron-right"></i>
-									</button>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-				<!-- gallery images -->
-				<div id="links">
-					<a href="images/player_01.png" title="concept1" data-gallery>
-						<img src="images/thumbnails/player_01.png" alt="Banana">
-					</a>
-					<a href="images/player_01_smoothv.png" title="concept2" data-gallery>
-						<img src="images/thumbnails/player_01_smoothv.png" alt="Apple">
-					</a>
-					<a href="images/player_01_bright.png" title="concept3" data-gallery>
-						<img src="images/thumbnails/player_01_bright.png" alt="Orange">
-					</a>
-				</div>
-		</div>		
-	</div>
-</div>
+    <div id="frontContainer">
+        <div class="siteHeader transparent">
+            <h1 id="welcomeText">Welcome to the Hangar </h1>
+        </div>
+        <div class="tabs-wrapper transparent">
+            <input type="radio" name="tab" id="tab1" class="tab-head transparent" checked="checked" />
+            <label for="tab1">Incoming Transmissions</label>
+            <input type="radio" name="tab" id="tab2" class="tab-head transparent" />
+            <label for="tab2">Meet The Crew</label>
+            <input type="radio" name="tab" id="tab3" class="tab-head transparent" />
+            <label for="tab3">About The Project</label>
+            <input type="radio" name="tab" id="tab4" class="tab-head transparent" />
+            <label for="tab4">Gathered Intelligence</label>
+            <div class="tab-body-wrapper">
+                <div id="tab-body-1" class="tab-body transparent">
+                    <h3> The Power of Unity ... </h3>
+                    <p class="blogText">Stardate 1337. We engauged in a very risky proceedure last weekend. We attempted to change the ships engine! Gone would be the troubles of Corona, and in it's place the troubles of the Unity game engine. After a long day of arguments, jokes, Japenese food and a little bit of code we found ourselves looking down the barrel of something shiny. Unity allows us to take the project in a direction we had'nt previously been able to. Here's hoping this new engines got some kick!</p>
+                    <p class="blogTime">posted: 4-29-2014</p>
+                </div>
+                <div id="tab-body-2" class="tab-body transparent">
+                    <h3> Your generally loyal crew  </h3>
+                    <p class="teamText">The humble crew of team Bee - Jelly is comprised of a collection of college graduates, eager to throw ideas at a wall, and then bash that will with a sledgehammer until the idea's become embedded into it. Below is a listing of these fine representatives...</p>
+                    <ul>
+                        <li>
+                            <img src="images/default.gif" class="crewMemberImage">
+                            <div>
+                                <tr>
+                                    <td class="teamName">Name :</td>
+                                    <td class="teamText">Andrew Facchiano</td>
+                                </tr>
+                                <tr>
+                                    <td class="teamName">Rank :</td>
+                                    <td class="teamText">Rad Dude</td>
+                                </tr>
+                                <!-- This should not be and is in fact a horrible sin. I will fix it later, mst likely with a table -->
+                                <br>
+                                <br>
+                                <br>
+                                <p class="teamText" style="vertical-align: right;">Drew is a programmer of many things. Sometimes it's software and other times it's the souls of the living.</p>
+                                <br>
+                                <br>
+                                <br>
+
+                            </div>
+
+                        </li>
+                        <li>
+                            <img src="images/default.gif" class="crewMemberImage">
+                            <div>
+                                <tr>
+                                    <td class="teamName">Name :</td>
+                                    <td class="teamText">Andrew Facchiano</td>
+                                </tr>
+                                <tr>
+                                    <td class="teamName">Rank :</td>
+                                    <td class="teamText">Rad Dude</td>
+                                </tr>
+                                  <!-- This should not be and is in fact a horrible sin. I will fix it later, mst likely with a table -->
+                                <br>
+                                <br>
+                                <br>
+                                <p class="teamText" style="vertical-align: right;">Drew is a programmer of many things. Sometimes it's software and other times it's the souls of the living.</p>
+                                 <br>
+                                <br>
+                                <br>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div id="tab-body-3" class="tab-body transparent">
+                    <h3> What is P.E.W P.E.W ? </h3>
+                    <p class="aboutText">Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodales. Quisque eu urna vel enim commodo pellentesque. Praesent eu risus hendrerit ligula tempus pretium. Curabitur lorem enim, pretium nec, feugiat nec, luctus a, lacus.</p>
+                    <p class="aboutText">Duis cursus. Maecenas ligula eros, blandit nec, pharetra at, semper at, magna. Nullam ac lacus. Nulla facilisi. Praesent viverra justo vitae neque. Praesent blandit adipiscing velit. Suspendisse potenti. Donec mattis, pede vel pharetra blandit, magna ligula faucibus eros, id euismod lacus dolor eget odio. Nam scelerisque. Donec non libero sed nulla mattis commodo. Ut sagittis. Donec nisi lectus, feugiat porttitor, tempor ac, tempor vitae, pede. Aenean vehicula velit eu tellus interdum rutrum. Maecenas commodo. Pellentesque nec elit. Fusce in lacus. Vivamus a libero vitae lectus hendrerit hendrerit.</p>
+                </div>
+                <div id="tab-body-4" class="tab-body">
+                    <h3> An ever growing collection of images and production stills related to your crafts development </h3>
+                    <!-- The Bootstrap Image Gallery lightbox, should be a child element of the document body -->
+                    <div id="blueimp-gallery" class="blueimp-gallery">
+                        <!-- The container for the modal slides -->
+                        <div class="slides"></div>
+                        <!-- Controls for the borderless lightbox -->
+                        <h3 class="title"></h3>
+                        <a class="prev">Ã£</a>
+                        <a class="next">Ãµ</a>
+                        <a class="close">â—Š</a>
+                        <a class="play-pause"></a>
+                        <ol class="indicator"></ol>
+                        <!-- The modal dialog, which will be used to wrap the lightbox content -->
+                        <div class="modal fade">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" aria-hidden="true">&times;</button>
+                                        <h4 class="modal-title"></h4>
+                                    </div>
+                                    <div class="modal-body next"></div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-default pull-left prev">
+                                            <i class="glyphicon glyphicon-chevron-left"></i>
+                                            Previous
+                                        </button>
+                                        <button type="button" class="btn btn-primary next">
+                                            Next
+                                            <i class="glyphicon glyphicon-chevron-right"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- gallery images -->
+                    <div id="links">
+                        <a href="images/player_01.png" title="concept1" class="transparent"data-gallery>
+                            <img src="images/thumbnails/playerTile.png">
+                        </a>
+                        <a href="images/player_01_smoothv.png" title="concept2" class="transparent" data-gallery>
+                            <img src="images/thumbnails/playerTileSmooth.png">
+                        </a>
+                        <a href="images/player_01_bright.png" title="concept3" class="transparent" data-gallery>
+                            <img src="images/thumbnails/playerTileBright.png">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
